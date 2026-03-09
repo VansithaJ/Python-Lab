@@ -26,10 +26,9 @@ Step9: Iterate and Display:
         Determine the length of the Info list using len() and store it in variable k.
         For Loop: Traverse the Info list and print each element directly.
         While Loop: Initialize a counter i = 0. While i < k, print the element at Info[i] and increment i by 1.
-Step10: End
+Step10: End.
 
 Source code:
-
 # List 1: Network Capabilities (12 elements)
 Content = [
     "5G", "Upto 10 Gbps", "ultra-low latency", "10-100 times", 
@@ -112,3 +111,60 @@ while i < k:
     print(Info[i])
     i = i + 1 
 print("\nOperations verified and complete.")
+
+Output:
+Initial Network Capabilities (Content list):
+['5G', 'Upto 10 Gbps', 'ultra-low latency', '10-100 times', 'faster than 4G', 'low as 1ms', 'massive network capacity', 'increased capacity & density', 'stable', 'Consistent Connections', 'Reliability']
+
+Initial Industry Applications (Info list):
+['advanced infrastructure', 'utility meters', 'remote', 'real-time diagnostics', 'robotic surgery', 'high-definition', 'lag-free VR/AR', 'automation', 'smart factories']
+
+Top 5 Capabilities (Slice [0:5]): ['5G', 'Upto 10 Gbps', 'ultra-low latency', '10-100 times', 'faster than 4G']
+Key Use Cases (Slice [0:3]): ['advanced infrastructure', 'utility meters', 'remote']
+
+After appending a new application sector:
+['5G', 'Upto 10 Gbps', 'ultra-low latency', '10-100 times', 'faster than 4G', 'low as 1ms', 'massive network capacity', 'increased capacity & density', 'stable', 'Consistent Connections', 'Reliability', 'Manufacturing']
+
+Item at Index 7 before update: automation
+After replacing element at index 7 with 'and':
+['advanced infrastructure', 'utility meters', 'remote', 'real-time diagnostics', 'robotic surgery', 'high-definition', 'lag-free VR/AR', 'and', 'smart factories']
+
+After removing 'Consistent Connections':
+['5G', 'Upto 10 Gbps', 'ultra-low latency', '10-100 times', 'faster than 4G', 'low as 1ms', 'massive network capacity', 'increased capacity & density', 'stable', 'Reliability', 'Manufacturing']
+
+After extending list with peak speed specifications:
+['advanced infrastructure', 'utility meters', 'remote', 'real-time diagnostics', 'robotic surgery', 'high-definition', 'lag-free VR/AR', 'and', 'smart factories', 'delivering upto 20 Gbps']
+
+Accessing element at index 10: Manufacturing
+The index of '5G' keyword: 0
+
+Combined Data (Concatenated Content and Info lists):
+['5G', 'Upto 10 Gbps', 'ultra-low latency', '10-100 times', 'faster than 4G', 'low as 1ms', 'massive network capacity', 'increased capacity & density', 'stable', 'Reliability', 'Manufacturing', 'advanced infrastructure', 'utility meters', 'remote', 'real-time diagnostics', 'robotic surgery', 'high-definition', 'lag-free VR/AR', 'and', 'smart factories', 'delivering upto 20 Gbps']
+
+Total elements in Industry Applications list (Info): 10
+
+Iterating with 'for' loop (Displaying all Applications):
+advanced infrastructure
+utility meters
+remote
+real-time diagnostics
+robotic surgery
+high-definition
+lag-free VR/AR
+and
+smart factories
+delivering upto 20 Gbps
+
+Iterating with 'while' loop (Index-based traversal):
+advanced infrastructure
+utility meters
+remote
+real-time diagnostics
+robotic surgery
+high-definition
+lag-free VR/AR
+and
+smart factories
+delivering upto 20 Gbps
+
+Operations verified and complete.
