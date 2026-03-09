@@ -78,3 +78,24 @@ print(f"Index of 'gram': {position}")
 vowels = "aeiouAEIOU"
 vowel_count = sum(1 for char in text if char in vowels)
 print(f"Number of vowels in '{text}': {vowel_count}")
+
+Output:
+While Loop:
+1 2 3 4 5 
+
+For Loop:
+I like apple
+I like banana
+I like cherry
+
+Factorial of 5 is: 120
+
+Reverse: gnimmargorP nohtyP
+Length of string: 18
+Is 'radar' a palindrome?: True
+Uppercase: PYTHON PROGRAMMING
+Lowercase: python programming
+Capitalize: Hello world
+Swapcase: pYTHON pROGRAMMING
+Index of 'gram': 10
+Number of vowels in 'Python Programming': 4
