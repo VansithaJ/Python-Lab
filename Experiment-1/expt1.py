@@ -113,3 +113,60 @@ b = int(input("Enter the value: "))
 LHS = (a * a * a) + (b * b * b)
 RHS = (a + b) * (a * a - a * b + b * b)
 print("Proved:", LHS == RHS)
+
+Output:
+Enter the Value: 5
+Enter the Value: 3
+Proved: True
+
+Enter the Value: 6
+Enter the Value: 2
+Proved: True
+
+Enter the Value: 4
+Enter the Value: 1
+Proved: True
+
+Enter the Value: 7
+Enter the Value: 3
+Proved: True
+
+Enter the Value: 5
+Enter the Value: 4
+Proved: True
+
+Enter Value1: 8
+Enter Value2: 3
+Proved: True
+
+Enter Value1: 10
+Enter Value2: 6
+Proved: True
+
+Enter Value1: 9
+Enter Value2: 2
+Proved: True
+
+Enter Value1: 12
+Enter Value2: 5
+Proved: True
+
+Enter the value: 3
+Enter the value: 2
+Proved: True
+
+Enter the value: 5
+Enter the value: 1
+Proved: True
+
+Enter the value: 6
+Enter the value: 2
+Proved: True
+
+Enter the value: 4
+Enter the value: 3
+Proved: True
+
+Enter the value: 2
+Enter the value: 1
+Proved: True
