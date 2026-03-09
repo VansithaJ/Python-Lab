@@ -68,3 +68,17 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+
+Output:
+--- PHONEBOOK MENU ---
+1. View All Contacts
+2. Add/Update Contact
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 1
+
+--- All Contacts ---
+Name: Vansitha   | Number: 9876543210
+Name: Amit       | Number: 9123456789
+Name: Sneha      | Number: 8887776665   
