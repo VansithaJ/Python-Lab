@@ -67,3 +67,18 @@ elif batter == "Good" and bowler == "Good":
     print("Strong All-Rounder")
 else:
     print("Needs Improvement")
+
+Output:
+#Input-
+Enter the runs: 55
+Enter the balls: 40
+Enter the wickets: 3
+Enter the Economy: 5
+Enter the no of overs: 4
+Enter the runs conceded: 20
+Enter the Catches: 2
+
+Excellent Batter
+Excellent Bowler
+Outstanding Fielder
+Star All-Rounder
