@@ -57,3 +57,24 @@ print("-" * 40)
 for row in sheet:
     print(f"| {row[0]:<15} | {row[1]:<10} | {row[2]:<12} |")
 print("-" * 40)
+
+Output:
+Profile Loaded: Vansitha | Course: BCA | Grade: A+
+
+--- Performance Report ---
+Student: Amit     | Score: 85 | Status: Pass
+Student: Rahul    | Score: 42 | Status: Fail
+Student: Sneha    | Score: 92 | Status: Pass
+Student: Priya    | Score: 78 | Status: Pass
+Student: Karan    | Score: 35 | Status: Fail
+
+Total Records in Database: 5
+Is Sneha in Database?: True
+
+Final Export Table:
+----------------------------------------
+| Student Name    | Course     | Final Result |
+| Vansitha        | BCA        | Cleared      |
+| Sneha           | BCA        | Distinction  |
+| Karan           | BBA        | Pending      |
+----------------------------------------
